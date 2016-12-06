@@ -126,7 +126,7 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3 contenteditable="false">北京益动思博科技有限公司（2015/05至今，主要产品：益动GPS）</h3>
+                        <h3 contenteditable="false">北京益动思博科技有限公司（2016/04至今，主要产品：益动GPS）</h3>
                         <div contenteditable="false">
                             <div>【项目介绍】</div>
                             <div>&nbsp; 1.益动GPS是记录运动轨迹和数据的一枚应用，运动健身的手机助手。百度词条“益 &nbsp; &nbsp;动GPS”</div>
@@ -134,14 +134,42 @@
                             <div>【职务】</div>
                             <div>&nbsp; Android开发经理</div>
                             <div>【工作职责】</div>
-                            <div>&nbsp; 1.<span style="display: inline !important;">负责益动GPS和益动APP日常事务，需求研讨和分发</span></div>
-                            <div>&nbsp; 2.负责益动APP整体架构搭建、技术难点攻克</div>
-                            <div>&nbsp; 3.解决bug以及优化</div>
+                            <div>
+                                &nbsp; 1.负责益动GPS和益动APP日常事务，需求研讨和分发
+                            </div>
+                            <div>
+                                &nbsp; 2.负责益动APP整体架构搭建、技术难点攻克
+                                 <li>整体采用mvp模式，模块解耦</li>
+                                 <li>网络模块采用代理模式，由统一的NetClient处理，利用volley+okhttp发起请求，LruCache处理网络缓存</li>
+                                 <li>数据模块采用工厂模式，分别处理SP数据、SQL数据、FileCache数据和序列化的Object数据</li>
+                                 <li>模块间通信使用事件总线EventBus</li>
+                            </div>
+                            <div>
+                                &nbsp; 3.解决bug以及优化
+                                 <li>利用灰色服务、多进程服务绑定和定时服务检查提高了益动GPS存活率</li>
+                                 <li>优化程序内存，将主进程拆分成服务进程和UI进程</li>
+                            </div>
                         </div>
                         <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
                     </li>
                     <li>
-                        <h3 contenteditable="false">新浪微博（2014/03--2015/05）</h3>
+                        <h3 contenteditable="false">爱活动（北京）国际文化传媒有限公司（2015/03--2016/04）</h3>
+                        <div contenteditable="false">
+                            <div>【项目介绍】</div>
+                            <div>&nbsp;爱活动是一款基于地理位置，以活动和图片为主的O2O移动社交应用。百度词条“爱活动”</div>
+                            <div>【职务】</div>
+                            <div>&nbsp; Android高级开发工程师</div>
+                            <div>【工作职责】</div>
+                            <div>&nbsp; 1.负责各主要功能的开发</div>
+                            <div>&nbsp; 2.优化代码。按照google material design优化ui设计。（使用Recyclerview代替listview，使用fresco代替imageLoader，熟练使用appcompat-v7包）</div>
+                            <div>&nbsp; 3.负责app中音视频的裁剪合成等功能。（研究了FFmpeg框架，熟练使用ffmpeg中的基本命令）</div>
+                            <div>&nbsp; 4.按照MVP设计模式，修改部分代码架构</div>
+                            <div>&nbsp; 5.基于AndFix修改的动态修复框架</div>
+                        </div>
+                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
+                    </li>
+                    <li>
+                        <h3 contenteditable="false">新浪微博（2014/03--2015/03）</h3>
                         <div contenteditable="false">
                             <div>【项目介绍】</div>
                             <div>&nbsp; 微博是一个由新浪网推出，提供微型博客服务类的社交网站。</div>
