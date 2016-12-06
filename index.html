@@ -139,15 +139,15 @@
                             </div>
                             <div>
                                 &nbsp; 2.负责益动APP整体架构搭建、技术难点攻克
-                                 <li>整体采用mvp模式，模块解耦</li>
-                                 <li>网络模块采用代理模式，由统一的NetClient处理，利用volley+okhttp发起请求，LruCache处理网络缓存</li>
-                                 <li>数据模块采用工厂模式，分别处理SP数据、SQL数据、FileCache数据和序列化的Object数据</li>
-                                 <li>模块间通信使用事件总线EventBus</li>
+                                 整体采用mvp模式，模块解耦
+                                 网络模块采用代理模式，由统一的NetClient处理，利用volley+okhttp发起请求，LruCache处理网络缓存
+                                 数据模块采用工厂模式，分别处理SP数据、SQL数据、FileCache数据和序列化的Object数据
+                                 模块间通信使用事件总线EventBus
                             </div>
                             <div>
                                 &nbsp; 3.解决bug以及优化
-                                 <li>利用灰色服务、多进程服务绑定和定时服务检查提高了益动GPS存活率</li>
-                                 <li>优化程序内存，将主进程拆分成服务进程和UI进程</li>
+                                 利用灰色服务、多进程服务绑定和定时服务检查提高了益动GPS存活率
+                                 优化程序内存，将主进程拆分成服务进程和UI进程
                             </div>
                         </div>
                         <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
