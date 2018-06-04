@@ -191,7 +191,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars1.githubusercontent.com/u/7588760?v=3&u=216b8b07ef6e12dc488f7f0576bf7d333c924188&s=400');
+    background-image:url('https://i.imgur.com/w8mHbCB.jpg');
     background-size: 120%;
     background-position:center;
     border-radius:50%;
@@ -275,6 +275,13 @@ ul li{
     visibility: hidden;
     cursor: pointer;
     
+}
+
+ .experience-list h3 {
+    background-color:#546E7A;
+	padding:0.2em;
+	color: #fff;
+	
 }
 
  .stack-list .item-remove {
